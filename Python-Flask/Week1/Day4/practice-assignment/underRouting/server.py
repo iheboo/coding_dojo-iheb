@@ -20,13 +20,9 @@ def say_name (name):
     return f" hi {name} !"
 
 
-@app.route('/ reapet/<name>/word')
-def reapet_word(name,word):
-    X =''
-    for i in range (0,name):
-        X += f"<h2>{word}</h2>"
-     
-    return X
+@app.route('/repeat/<int:num>/<string:word>')
+def reapet_word(num,word):     
+    return f'{num*word}'
 
     
 
