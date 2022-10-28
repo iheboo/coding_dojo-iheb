@@ -1,8 +1,10 @@
-from flask import Flask, render_template
+from flask import Flask,render_template
 
 app = Flask(__name__)
 
-
+@app.route('/')
+def hi ():
+    return "hi"
 
 
 @app.route('/play')
@@ -11,15 +13,12 @@ def play():
 
 @app.route('/play/<int:num>')
 def render_one (num):    
-    return render_template("index.html" num =num,color="blue")
+    return render_template("index.html", num =num,color="blue")
 
 
 @app.route('/play/<int:num>/<stringcolor>')
-def render_2(num,color):
-    return 	render_template("index.html" num =num,color=color)
-
-
-
+def render_two(num,color):
+    return 	render_template("index.html" ,num =num,color=color)
 
 
 
