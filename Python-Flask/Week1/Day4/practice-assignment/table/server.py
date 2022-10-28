@@ -12,4 +12,4 @@ def index():
 
 
 if __name__=="__main__":
-    app.run(degug=True)
+    app.run(debug=True)

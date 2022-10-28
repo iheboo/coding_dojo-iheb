@@ -4,44 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-    .tabe {
-        border: 25px;
-        background-color: brown;
-        width: 50px;
-        height: 50px;
-    }
-    .tabl{
-        justify-content: space-evenly;
-        text-align: center;
-    }
-    </style>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+    crossorigin="anonymous"
+ />
     <title>Document</title>
 </head>
 <body>
-    <div class="tabe">
-        <table class="tabl">
+    
+        <table class="table-primary">
             <thead>
-                <th>first_name</th>
-                <th>last_name</th>
+                <tr>
+                    {% for column in column_names %}
+                    <td>{{column}}</td>
+                {% endfor %}
+                </tr>
+                <!-- <tr>first_name</tr> -->
+                <!-- <tr>last_name</tr> -->
             </thead>
             <tbody>
-                {% for user in user %}
-                <tr>{{user['first_name']}}</tr>
-                <tr>{{user'[last_name']}}</tr>
-                {% end for %}
+                {% for user in users %}
+                <td>{{user['first_name']}}</td>
+                <td>{{user['last_name']}}</td>
+                {% endfor %}
             </tbody>
 
         </table>
 
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">first_name</th>
+                <th scope="col">last_name</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Michael</td>
+                <td>Choi</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>John</td>
+                <td>Supsupin</td>
+                
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Mark</td>
+                <td>Guillen</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td>KB</td>
+                <td>Tonel</td>
+              </tr>
+            </tbody>
+          </table>
 
 
-
-
-
-
-
-
-    </div>
 </body>
 </html>
