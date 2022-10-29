@@ -14,26 +14,24 @@
 </head>
 <body>
     
+    <div>
         <table class="table-primary">
             <thead>
-                <tr>
-                    {% for column in column_names %}
-                    <td>{{column}}</td>
-                {% endfor %}
-                </tr>
-                <!-- <tr>first_name</tr> -->
-                <!-- <tr>last_name</tr> -->
+                <th>first_name</th>
+                <th>last_name</th>
             </thead>
             <tbody>
                 {% for user in users %}
-                <td>{{user['first_name']}}</td>
-                <td>{{user['last_name']}}</td>
+                <tr>
+                  <td>{{user['first_name']}}</td>
+                  <td>{{user['last_name']}}</td>
+                </tr>
                 {% endfor %}
             </tbody>
-
-        </table>
-
-        <table class="table">
+        </table> -->
+    </div>
+    
+        <!-- <table class="table">
             <thead>
               <tr>
                 <th scope="col">#</th>
@@ -66,7 +64,7 @@
                 <td>Tonel</td>
               </tr>
             </tbody>
-          </table>
+          </table> -->
 
 
 </body>
