@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>welcom to the great number game!</h1>
+        <p>I am thinking of number between 1 and 100</p>
+        <form action="/game" class="bg-dark text-warning text-center p-5 rounded" method="post">
+            <div class="form-group">
+                <label for="game">Take a Guess!!!</label>
+                <input type="text" name="game" id="game" >
+            </div>
+            <input type="submit" value="game" class="btn btn-warning">
+        </form>
+            {% if 'game' in session %}
+                {% if session['game']==session['num']%}
+                    <div style="background-color:green ; height: 20%;width: 15%;" >
+                        <h1 style="text-align:centre "> was cool</h1>
+                        <a href="/reset" class="btn btn-primary">Play Again</a>
+                    </div>
+                {% elif session['game'] < session['num']%}
+                    <div style="background-color:rgb(241, 11, 11) ; height: 20%;width: 15%;" >
+                       <h1 style="text-align:centre ;">too low</h1>
+                    </div>
+                {% else %}
+                    <div style="background-color:rgb(241, 11, 11) ; height: 20%;width: 15%;" >
+                       <h1 style="text-align:centre ;">too high</h1>
+                    </div>
+                {% endif %}
+            {% endif %}
+    </div>
+
+</body>
+</html>
