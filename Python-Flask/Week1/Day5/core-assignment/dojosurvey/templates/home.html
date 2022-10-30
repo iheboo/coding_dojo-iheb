@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+</head>
+<body>
+    <div  class="container bg-secondary "  >
+        <h1  class="text-warning">Dojo Survey</h1>
+        <form action="/admin" method="post" class="bg-secondary p-4">
+            <div >
+                 <label for="Name"> name:</label>
+                 <input type="text"  name="name" >
+            </div>
+            <div>
+                <label for="location"> location:</label>
+                <select name='location' class="form-select" aria-label="Default select example">
+                     <option value= 'a'>tunis</option>
+                     <option value='b'>béja</option>
+                     <option value='c'>sfax</option>
+                     <option value='d'>sidi bouzid</option>
+                      <option value='e'>jandoba</option>
+                </select>
+            </div>
+            <div>
+                <label for="language" > language:</label>
+                <select name='language'class="form-select" aria-label="Default select example">
+                     <option value= 'a'>python</option>
+                     <option value='b'>c++</option>
+                     <option value='c'>JS</option>
+                     <option value='d'>css</option>
+                     <option value='e'>Html</option>
+                </select>
+            </div>
+            <div>
+                 <label for="comment"> comment:</label>
+                <textarea name="comment" id="comment" rows="5" cols="30"class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            </div>
+            <input type="submit"   name="name" >
+        </form>
+    </div>
+</body>
+</html>
