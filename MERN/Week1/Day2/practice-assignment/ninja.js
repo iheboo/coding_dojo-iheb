@@ -13,7 +13,7 @@ class Ninja {
     }
     drinkSake(){
         this.health += 10;
-        console.log(this.health)
+
     }
 }
 const hani = new Ninja("hani");
