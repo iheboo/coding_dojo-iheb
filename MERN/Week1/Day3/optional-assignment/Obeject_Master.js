@@ -34,7 +34,7 @@ const pokémon = Object.freeze([
     const twTypePkmn=pokémon.filter(p => p.types.length>1);
     // console.log(twTypePkmn)
     const naMePkmn = pokémon.map(p =>p.name);
-    // console.log(naMePkmn)
+    console.log(naMePkmn)
     const plusPkmn = pokémon.filter(p =>p.id>=99).map(p => p.name);
     // console.log(plusPkmn)
     const posiPkmn =pokémon.filter(p =>p.types[0]==="poison").map(p=>p.name);
@@ -42,6 +42,6 @@ const pokémon = Object.freeze([
     const secoPkn =pokémon.filter(p => p.types[1]==="flying").map(p=>p.types[0])
     // console.log(secoPkn)
     const jusPkn=pokémon.filter(p=>p.types[0]==="normal")
-    console.log(jusPkn.length)
+    // console.log(jusPkn.length)
 
 
