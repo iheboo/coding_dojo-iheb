@@ -1,6 +1,6 @@
 const mongoose =require("mongoose");
 
-const jokesSchema = new mongoose.schema({
+const jokesSchema = new mongoose.Schema({
     setup:{
         type:String,
         required:[true,"cool one "]
