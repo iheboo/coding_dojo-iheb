@@ -12,8 +12,8 @@ const peopleArr =[
 function App() {
   return (
     <div className="App">
-      {peopleArr.map(p=>{
-        return<PersonComponent firstName={p.firstName}  lastName={p.lastName} age={p.age}  hairColor={p.hairColor} />
+      {peopleArr.map((p,id)=>{
+        return<PersonComponent key={id} firstName={p.firstName}  lastName={p.lastName} age={p.age}  hairColor={p.hairColor} />
       })}
     </div>
   );
