@@ -8,7 +8,7 @@ const Planet = (props) => {
   const { id } = useParams();
 
   useEffect(() => {
-    axios.get(`https://swapi.dev/api/people/${id}`)
+    axios.get(`https://swapi.dev/api/planet/${id}`)
       .then(res => {
         console.log(res);
         setData(res.data);
