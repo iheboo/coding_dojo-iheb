@@ -13,7 +13,7 @@ require ("./config/mongose.config")(DB_NAME)
 // :::::::::::::::::::::::::::
 
 // import the routes-------------------------
-// require("./routes/jakes.route");
+// require("./routes/jakes.route")(app);
 const tset = require("./routes/jakes.route")
 tset (app);
 console.log(tset)
