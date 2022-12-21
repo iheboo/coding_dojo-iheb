@@ -1,0 +1,15 @@
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\bin\Debug\net6.0\nin_wis_.exe
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\bin\Debug\net6.0\nin_wis_.deps.json
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\bin\Debug\net6.0\nin_wis_.runtimeconfig.json
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\bin\Debug\net6.0\nin_wis_.dll
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\bin\Debug\net6.0\nin_wis_.pdb
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\obj\Debug\net6.0\nin_wis_.csproj.AssemblyReference.cache
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\obj\Debug\net6.0\nin_wis_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\obj\Debug\net6.0\nin_wis_.AssemblyInfoInputs.cache
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\obj\Debug\net6.0\nin_wis_.AssemblyInfo.cs
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\obj\Debug\net6.0\nin_wis_.csproj.CoreCompileInputs.cache
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\obj\Debug\net6.0\nin_wis_.dll
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\obj\Debug\net6.0\refint\nin_wis_.dll
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\obj\Debug\net6.0\nin_wis_.pdb
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\obj\Debug\net6.0\nin_wis_.genruntimeconfig.cache
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day2\core-assignment\nin_wis_\obj\Debug\net6.0\ref\nin_wis_.dll
