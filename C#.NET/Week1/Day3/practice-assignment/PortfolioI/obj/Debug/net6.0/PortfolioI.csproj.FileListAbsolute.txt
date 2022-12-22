@@ -19,3 +19,6 @@ C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day3\practice-assignment\Por
 C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day3\practice-assignment\PortfolioI\obj\Debug\net6.0\PortfolioI.pdb
 C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day3\practice-assignment\PortfolioI\obj\Debug\net6.0\PortfolioI.genruntimeconfig.cache
 C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day3\practice-assignment\PortfolioI\obj\Debug\net6.0\ref\PortfolioI.dll
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day3\practice-assignment\PortfolioI\obj\Debug\net6.0\PortfolioI.RazorAssemblyInfo.cache
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day3\practice-assignment\PortfolioI\obj\Debug\net6.0\PortfolioI.RazorAssemblyInfo.cs
+C:\Users\hoba\Desktop\coding_dojo-iheb\C#.NET\Week1\Day3\practice-assignment\PortfolioI\bin\Debug\net6.0\PortfolioI.staticwebassets.runtime.json

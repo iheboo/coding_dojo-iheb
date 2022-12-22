@@ -5,23 +5,35 @@ public class HiContr : Controller
 
     [HttpGet]
     [Route("")]
-    public string Index()
+    // public string Index()
+    // {
+    //     return "This is my index!";
+    // }
+     public IActionResult Index()
     {
-        return "This is my index!";
+        return View();
     }
 
     [HttpGet]
     [Route("/projects")]
 
-    public string Projects()
+    // public string Projects()
+    // {
+    //     return "These are my projects!";
+    // }
+        public IActionResult Project()
     {
-        return "These are my projects!";
+        return View();
     }
 
     [HttpGet]
     [Route("/contact")]
-    public string Contact()
+    // public string Contact()
+    // {
+    //     return "This is my contact!";
+    // }
+        public IActionResult Contact()
     {
-        return "This is my contact!";
+        return View();
     }
 }
