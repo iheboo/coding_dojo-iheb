@@ -5,7 +5,7 @@ namespace ViewModelFun.Controllers
 {
     public class HomeController : Controller
     {
-        public List<User> GenerateUsers()
+        public List<User> OneUsers()
         {
             return new List<User>()
             {
@@ -27,20 +27,20 @@ namespace ViewModelFun.Controllers
         [HttpGet("numbers")]
         public IActionResult Numbers()
         {
-            int[] numbers = new int[]{1,2,3,4,6,-13,100,-2};
+            int[] numbers = new int[]{1,2,34,4,10,-5,5,-2};
             return View(numbers);
         }
         [HttpGet("users")]
         public IActionResult AllUsers()
         {
-            var users = GenerateUsers();
+            var users = OneUsers();
             return View(users);
         }
         [HttpGet("user")]
         public IActionResult OneUser()
         {
             var rand = new Random();
-            var users = GenerateUsers();
+            var users = OneUsers();
 
             // grab random user (could just create one, grab first, etc...)
             var user = users[rand.Next(users.Count)];
