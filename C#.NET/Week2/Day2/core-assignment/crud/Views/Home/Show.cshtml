@@ -1,0 +1,14 @@
+@model Dich
+<p>
+<h1>@Model.Name</h1>
+<span>
+    by
+</span>
+<h3>@Model.Chef</h3>
+</p>
+<hr>
+<p>@Model.Description</p>
+<h3><p>Calories: </p>@Model.Calories</h3>
+<h3><p>Tastiness: </p>@Model.Tastiness</h3>
+<a asp-action="Delete" ><button>Delete</button></a>
+<a href="Edit/@Model.DichId" ><button>Edit</button></a>
