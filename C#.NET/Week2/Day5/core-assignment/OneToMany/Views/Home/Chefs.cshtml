@@ -1,0 +1,18 @@
+@model List<Chef> 
+    <h1>Welcome</h1>
+    <p><a href="Chefs">chefs</a>|<a href="">Add Chef </a>|<a href="">dishes</a>|<a href="createDishes">ADD dishes</a></p>
+<table class="table table-striped">
+    <tr>
+        <th>Name</th>
+        <th>Year</th>
+        <th>#of Dihes</th>
+    </tr>
+    @foreach (Chef s in Model)
+    {
+        <tr>
+            <td>@s.FristName@s.LastName</td>
+            <td>@s.Year</td>
+            <td>@s.CreatedDish.Count()</td>
+        </tr>
+    }
+</table>
